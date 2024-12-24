@@ -10,7 +10,7 @@ sta.active(True)
 esp = espnow.ESPNow()
 esp.active(True)
 
-peer = b'\xe4e\xb8\x83V\xf4'
+peer = b'\xe4e\xb8\x83V\xf4' #The address of the reciever
 esp.add_peer(peer)
 while(1):
     
